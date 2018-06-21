@@ -18,7 +18,7 @@ var questionsArray = [{
 },
 {
 	question: "Q: What are the nicknames Marshall and Lily give each other?",
-	answerOptions: ["Mr. and Mrs. Awesome", "Marshmallow and Lilypad", "Fay Wrap and King Kong", "Big Fudge and Lori"],
+	answerOptions: ["Mr. and Mrs. Awesome", "Marshmallow and Lilypad", "Fay Wray and King Kong", "Big Fudge and Lori"],
 	answer: 1
 },
 {
@@ -237,8 +237,15 @@ function finalTally(){
     $('#finalResults').html(results.completion);
     $('#correctAnswers').html("Correct Answers: " + correctAnswer);
     $('#incorrectAnswers').html("Incorrect Answers: " + incorrectAnswer);
-    $('#noAnswers').html("Unanswered: " + noAnswer);
+	$('#noAnswers').html("Unanswered: " + noAnswer);
+	// Trigger the restart button
+	$('#restartButton').addClass('restart');
+	$('#restartButton').show();
+	$('#restartButton').html('Start Over?');
 }
 
 // Create a restart button
-    // Calls back to the start game function upon click
+$('#restartButton').on('click', function(){
+	$(this).hide();
+	startGame();
+});
