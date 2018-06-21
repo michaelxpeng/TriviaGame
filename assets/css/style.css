@@ -1,0 +1,39 @@
+body{
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 25px;
+	line-height: 50px;
+}
+
+.btn-danger,.restart{
+	font-family: 'Helvetica', sans-serif;
+	font-size: 40px;
+	width: 100%;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 1000px;
+}
+
+h2 {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	padding: 20px;
+}
+
+#result, #finalTally{
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+.userChoice:hover{
+	background-color: red;
+	color: white;
+	padding: 10px;
+}
+
+#gif{
+	margin: 30px;
+}

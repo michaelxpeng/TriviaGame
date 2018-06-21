@@ -11,11 +11,29 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Create a start button -->
+    <!-- Header image -->
+    <header>
+        <img src='assets/images/header.webp' alt='headerImg' width='100%'>
+    </header>
+    <!-- Main container -->
+    <div class='container'>
+        <!-- Create a start button -->
+        <button class='btn btn-danger' id='startButton'>Start Game</button>
     <!-- Create a page displaying the question, answers and time left -->
+    <div id=timer></div>
+    <div id=currentQuestion></div>
+    <div class='question'></div>
+    <div class='answerOptions'></div>
     <!-- Create a page displaying the answers after user's input with a message, the correct answer and a response gif -->
+    <div id=message></div>
+    <div id=correctedAnswer></div>
+    <div id=gif></div>
     <!-- Create a page displaying the final results -->
-    <!-- Create a start button-->
+    <div id=finalResults></div>
+    <div id=correctAnswers></div>
+    <div id=incorrectAnswers></div>
+    <div id=noAnswers></div>
+    <!-- Create a restart button-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
