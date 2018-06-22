@@ -4,7 +4,7 @@ body{
 	line-height: 50px;
 }
 
-.btn-danger,.restart{
+.btn-danger{
 	font-family: 'Helvetica', sans-serif;
 	font-size: 40px;
 	width: 100%;
@@ -29,6 +29,11 @@ h2 {
 }
 
 .userChoice:hover{
+	background-color: red;
+	color: white;
+	padding: 10px;
+}
+.restart:hover{
 	background-color: red;
 	color: white;
 	padding: 10px;

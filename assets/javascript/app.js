@@ -196,7 +196,7 @@ function resultsPage(){
 	var correctAnswerText = questionsArray[currentQuestion].answerOptions[questionsArray[currentQuestion].answer];
 	var correctAnswerIndex = questionsArray[currentQuestion].answer;
 	// Display the gif according to the question
-	$('#gif').html('<img src = "assets/images/'+ gifArray[currentQuestion] +'.gif" width="100%" height="100%">');
+	$('#gif').html('<img src = "assets/images/'+ gifArray[currentQuestion] +'.gif" width="500px">');
 	// Compare the user's choice to see if it's correct, incorrect, or did not answer
 	if((userChoice == correctAnswerIndex) && (answered == true)){
 		// Tally the score
