@@ -20,20 +20,25 @@ On the final screen, show the number of correct answers, incorrect answers, and 
 
 ## Screenshots
 Home page
+
 ![home](home.png)
 
 
 Question page
+
 ![question](question.png)
 
 
 Correct answer page
+
 ![correct](correct.png)
 
 
 Incorrect answer page
+
 ![incorrect](incorrect.png)
 
 
 Results page
+
 ![results](results.png)
